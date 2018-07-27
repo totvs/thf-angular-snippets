@@ -73,7 +73,7 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
 
-## Relase Notes
+## Release Notes
 
 1.0.0
 * Initial release.
