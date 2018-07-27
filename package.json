@@ -1,8 +1,8 @@
 {
-    "name": "thf2-snippets-vscode",
+    "name": "thf-angular-snippets",
     "publisher": "TOTVS",
-    "displayName": "THF 2 Snippets for VSCode",
-    "description": "TOTVS HTML Framework 2 snippets by TOTVS.",
+    "displayName": "THF 2 Angular Snippets for VSCode",
+    "description": "TOTVS HTML Framework 2 Angular snippets by TOTVS.",
     "icon": "assets/images/thf.png",
     "galleryBanner": {
         "color": "#333",

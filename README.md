@@ -1,6 +1,6 @@
-# [TOTVS HTML Framework 2](https://thf.totvs.com.br/) Snippets for VS CODE
+# [TOTVS HTML Framework 2](https://thf.totvs.com.br/) Angular Snippets for VS CODE
 
-This extension for Visual Studio Code adds HTML snippets for TOTVS HTML Framework 2.
+This extension for Visual Studio Code adds HTML|Angular snippets for TOTVS HTML Framework 2.
 
 ![Use Extension](https://github.com/totvs/thf-angular-snippets/raw/master/assets/images/totvs-thf2-snippets.gif)
 
