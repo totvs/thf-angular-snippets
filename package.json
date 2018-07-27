@@ -1,0 +1,38 @@
+{
+    "name": "thf2-snippets-vscode",
+    "publisher": "TOTVS",
+    "displayName": "THF 2 Snippets for VSCode",
+    "description": "TOTVS HTML Framework 2 snippets by TOTVS.",
+    "icon": "assets/images/thf.png",
+    "galleryBanner": {
+        "color": "#333",
+        "theme": "dark"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "homepage": "https://github.com/totvs/thf-angular-snippets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/totvs/thf-angular-snippets.git"
+    },
+    "keywords": [
+        "ANGULAR",
+        "TOTVS",
+        "THF2",
+        "THF2 SNIPPETS"
+    ],
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.8.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            }
+        ]
+    }
+}

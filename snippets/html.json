@@ -1,0 +1,990 @@
+{
+	"THF.2.Avatar": {
+		"prefix": "<thf-avatar",
+		"body": [
+			"<thf-avatar",
+			"    t-size=\"${1|xs,sm,md,lg,xl|}\"",
+			"    t-src=\"${2}\"",
+			">",
+			"</thf-avatar>"
+		],
+		"description": "THF 2 - Avatar"
+	},
+	"THF.2.Button": {
+		"prefix": "<thf-button",
+		"body": [
+			"<thf-button",
+			"    t-label=\"${1}\"",
+			"    t-disabled=\"${2|false,true|}\"",
+			"    t-icon=\"${3|thf-icon-agro-business,thf-icon-arrow-down,thf-icon-arrow-left,thf-icon-arrow-right,thf-icon-arrow-up,thf-icon-bar-code,thf-icon-basket,thf-icon-calendar,thf-icon-camera,thf-icon-cart,thf-icon-chat,thf-icon-clock,thf-icon-close,thf-icon-company,thf-icon-copy,thf-icon-credit-payment,thf-icon-debit-payment,thf-icon-delete,thf-icon-document,thf-icon-edit,thf-icon-exit,thf-icon-export,thf-icon-filter,thf-icon-finance,thf-icon-first-page,thf-icon-help,thf-icon-home,thf-icon-info,thf-icon-last-page,thf-icon-list,thf-icon-lock,thf-icon-logo-totvs,thf-icon-mail,thf-icon-menu,thf-icon-message,thf-icon-minus,thf-icon-money,thf-icon-more,thf-icon-news,thf-icon-no-signal,thf-icon-notification,thf-icon-ok,thf-icon-pin,thf-icon-plus,thf-icon-qr-code,thf-icon-sale,thf-icon-search,thf-icon-settings,thf-icon-share,thf-icon-sort,thf-icon-sort-asc,thf-icon-sort-desc,thf-icon-star,thf-icon-stock,thf-icon-table,thf-icon-telephone,thf-icon-user,thf-icon-user-add,thf-icon-wallet,thf-icon-warning,thf-icon-world|}\"",
+			"    t-loading=\"${4|false,true|}\"",
+			"    t-small=\"${5|false,true|}\"",
+			"    t-type=\"${6|default,primary,danger,link|}\"",
+			"    (t-click)=\"onClick${7:Button}(\\$event)\"",
+			">",
+			"</thf-button>"
+		],
+		"description": "THF 2 - Button"
+	},
+	"THF.2.Button.Group": {
+		"prefix": "<thf-button-group",
+		"body": [
+			"<thf-button-group",
+			"    [t-buttons]=\"${1:thfButtonGroupItemList}>\"",
+			"    t-small=\"${2|false,true|}\"",
+			"    t-toggle=\"${3:none|single|multiple}\"",
+			">",
+			"</thf-button-group>"
+		],
+		"description": "THF 2 - Button Group"
+	},
+	"THF.2.Chart": {
+		"prefix": "<thf-chart",
+		"body": [
+			"<thf-chart",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    [t-categories]=\"${3:chartCategories}\"",
+			"    t-height=\"${4:400}px\"",
+			"    t-label-visible=\"${5|false,true|}\"",
+			"    t-max-value=\"${6}\"",
+			"    t-min-value=\"${7}\"",
+			"    [t-series]=\"${8:chartSeries}\"",
+			"    t-title=\"${9}\"",
+			"    t-type=\"${10|area,bar,bubble,bullet,candlestick,column,donut,funnel,line,ohlc,pie,polarLine,rangeBar,scatter,scatterLine,waterfall|}\"",
+			"    (t-series-click)=\"onClickSeries${11:Chart}(\\$event)\"",
+			"    (t-series-hover)=\"onHoverSeries${11:Chart}(\\$event)\"",
+			">",
+			"</thf-chart>"
+		],
+		"description": "THF 2 - Chart"
+	},
+	"THF.2.Checkbox.Group": {
+		"prefix": "<thf-checkbox-group",
+		"body": [
+			"<thf-checkbox-group",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-disabled=\"${5|false,true|}\"",
+			"    t-help=\"${6}\"",
+			"    t-indeterminate=\"${7|false,true|}\"",
+			"    t-required=\"${8|false,true|}\" ",
+			"    [t-options]=\"${9:checkboxGroupOptions}\"",
+			"    (t-change)=\"onChange${10:CheckboxOption}(\\$event)\"",
+			">",
+			"</thf-checkbox-group>"
+		],
+		"description": "THF 2 - Checkbox Group"
+	},
+	"THF.2.Code.Editor": {
+		"prefix": "<thf-code-editor",
+		"body": [
+			"<thf-code-editor",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-height=\"${4:150}px\"",
+			"    t-language=\"${5|plainText,HTML,JSON,XML,TypeScript,JavaScript,CSS,LESS,SCSS|}\"",
+			"    t-readonly=\"${6|false,true|}\"",
+			"    t-show-diff=\"${7|false,true|}\"",
+			"    t-theme=\"${8:vs}\"",
+			">",
+			"</thf-code-editor>"
+		],
+		"description": "THF 2 - Code Editor"
+	},
+	"THF.2.Column": {
+		"prefix": "<thf-column",
+		"body": [
+			"<div class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\">",
+			"",
+			"    $0",
+			"",
+			"</div>"
+		],
+		"description": "THF 2 - Column"
+	},
+	"THF.2.Combo": {
+		"prefix": "<thf-combo",
+		"body": [
+			"<thf-combo",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-help=\"string\"${5}",
+			"    t-placeholder=\"${6}\"",
+			"    t-field-label=\"${7:label}\"",
+			"    t-field-value=\"${8:value}\"",
+			"    [t-options]=\"${9:comboOptions}\"",
+			"    t-debounce-time=\"${10:400}\"",
+			"    t-disabled=\"${11|false,true|}\"",
+			"    t-disabled-init-filter=\"${12|false,true|}\"",
+			"    t-filter-minlength=\"${13:0}\"",
+			"    t-filter-mode=\"${14|startsWith,contains,endsWith|}\"",
+			"    t-filter-service=\"${15}\"",
+			"    t-required=\"${16|false,true|}\"",
+			"    t-sort=\"${17}\"",
+			"    (t-change)=\"onChange${18:ComboOption}(\\$event)\"",
+			">",
+			"</thf-combo>"
+		],
+		"description": "THF 2 - Combo"
+	},
+	"THF.2.Datepicker": {
+		"prefix": "<thf-datepicker",
+		"body": [
+			"<thf-datepicker",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-help=\"${5}\"",
+			"    t-placeholder=\"${6}\"",
+			"    t-locale=\"${7|pt,en,es|}\"",
+			"    t-start=\"${8}\"",
+			"    t-end=\"${9}\"",
+			"    t-clean=\"${10|true,false|}\"",
+			"    t-disabled=\"${11|false,true|}\"    ",
+			"    t-focus=\"${12|false,true|}\"",
+			"    t-format=\"${13|dd/mm/yyyy,mm/dd/yyyy,yyyy/mm/dd|}\"",
+			"    t-error-pattern=\"${14}\"",
+			"    t-readonly=\"${15|false,true|}\"",
+			"    t-required=\"${16|false,true|}\"",
+			"    (t-blur)=\"onBlur${17:Datepicker}(\\$event)\"",
+			"    (t-change)=\"onChange${17:Datepicker}(\\$event)\"",
+			">",
+			"</thf-datepicker>"
+		],
+		"description": "THF 2 - Datepicker"
+	},
+	"THF.2.Decimal": {
+		"prefix": "<thf-decimal",
+		"body": [
+			"<thf-decimal",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-help=\"${5}\"",
+			"    t-placeholder=\"${6}\"",
+			"    t-clean=\"${7|true,false|}\"",
+			"    t-decimals-length=\"${8:2}\"",
+			"    t-icon=\"${9|thf-icon-agro-business,thf-icon-arrow-down,thf-icon-arrow-left,thf-icon-arrow-right,thf-icon-arrow-up,thf-icon-bar-code,thf-icon-basket,thf-icon-calendar,thf-icon-camera,thf-icon-cart,thf-icon-chat,thf-icon-clock,thf-icon-close,thf-icon-company,thf-icon-copy,thf-icon-credit-payment,thf-icon-debit-payment,thf-icon-delete,thf-icon-document,thf-icon-edit,thf-icon-exit,thf-icon-export,thf-icon-filter,thf-icon-finance,thf-icon-first-page,thf-icon-help,thf-icon-home,thf-icon-info,thf-icon-last-page,thf-icon-list,thf-icon-lock,thf-icon-logo-totvs,thf-icon-mail,thf-icon-menu,thf-icon-message,thf-icon-minus,thf-icon-money,thf-icon-more,thf-icon-news,thf-icon-no-signal,thf-icon-notification,thf-icon-ok,thf-icon-pin,thf-icon-plus,thf-icon-qr-code,thf-icon-sale,thf-icon-search,thf-icon-settings,thf-icon-share,thf-icon-sort,thf-icon-sort-asc,thf-icon-sort-desc,thf-icon-star,thf-icon-stock,thf-icon-table,thf-icon-telephone,thf-icon-user,thf-icon-user-add,thf-icon-wallet,thf-icon-warning,thf-icon-world|}\"",
+			"    t-mask=\"${10}\"",
+			"    t-mask-format-model=\"${11|false,true|}\"",
+			"    t-maxlength=\"${12}\"",
+			"    t-minlength=\"${13}\"",
+			"    t-thousand-maxlength=\"${14:13}\"",
+			"    t-disabled=\"${15|false,true|}\"",
+			"    t-focus=\"${16|false,true|}\"",
+			"    t-readonly=\"${17|false,true|}\"",
+			"    t-required=\"${18|false,true|}\"",
+			"    t-pattern=\"${19}\"",
+			"    t-error-pattern=\"${20}\"",
+			"    (t-blur)=\"onBlur${21:Decimal}(\\$event)\"",
+			"    (t-enter)=\"onEnter${21:Decimal}(\\$event)\"",
+			"    (t-change)=\"onChange${21:Decimal}(\\$event)\"",
+			"    (t-change-model)=\"onChangeModel${21:Decimal}(\\$event)\"",
+			">",
+			"</thf-decimal>"
+		],
+		"description": "THF 2 - Decimal"
+	},
+	"THF.2.Dropdown": {
+		"prefix": "<thf-dropdown",
+		"body": [
+			"<thf-dropdown",
+			"    t-label=\"${1}\"",
+			"    [t-actions]=\"${2:dropdownActions}\"",
+			"    t-disabled=\"${3|false,true|}\"",
+			">",
+			"</thf-dropdown>"
+		],
+		"description": "THF 2 - Dropdown"
+	},
+	"THF.2.Email": {
+		"prefix": "<thf-email",
+		"body": [
+			"<thf-email",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-help=\"${5}\"",
+			"    t-placeholder=\"${6}\"",
+			"    t-clean=\"${7|true,false|}\"",
+			"    t-icon=\"${8|thf-icon-agro-business,thf-icon-arrow-down,thf-icon-arrow-left,thf-icon-arrow-right,thf-icon-arrow-up,thf-icon-bar-code,thf-icon-basket,thf-icon-calendar,thf-icon-camera,thf-icon-cart,thf-icon-chat,thf-icon-clock,thf-icon-close,thf-icon-company,thf-icon-copy,thf-icon-credit-payment,thf-icon-debit-payment,thf-icon-delete,thf-icon-document,thf-icon-edit,thf-icon-exit,thf-icon-export,thf-icon-filter,thf-icon-finance,thf-icon-first-page,thf-icon-help,thf-icon-home,thf-icon-info,thf-icon-last-page,thf-icon-list,thf-icon-lock,thf-icon-logo-totvs,thf-icon-mail,thf-icon-menu,thf-icon-message,thf-icon-minus,thf-icon-money,thf-icon-more,thf-icon-news,thf-icon-no-signal,thf-icon-notification,thf-icon-ok,thf-icon-pin,thf-icon-plus,thf-icon-qr-code,thf-icon-sale,thf-icon-search,thf-icon-settings,thf-icon-share,thf-icon-sort,thf-icon-sort-asc,thf-icon-sort-desc,thf-icon-star,thf-icon-stock,thf-icon-table,thf-icon-telephone,thf-icon-user,thf-icon-user-add,thf-icon-wallet,thf-icon-warning,thf-icon-world|}\"",
+			"    t-mask=\"${9}\"",
+			"    t-mask-format-model=\"${10|false,true|}\"",
+			"    t-maxlength=\"${11}\"",
+			"    t-minlength=\"${12}\"",
+			"    t-disabled=\"${13|false,true|}\"",
+			"    t-focus=\"${14|false,true|}\"",
+			"    t-readonly=\"${15|false,true|}\"",
+			"    t-required=\"${16|false,true|}\"",
+			"    t-pattern=\"${17}\"",
+			"    t-error-pattern=\"${18}\"",
+			"    (t-blur)=\"onBlur${19:Email}(\\$event)\"",
+			"    (t-enter)=\"onEnter${19:Email}(\\$event)\"",
+			"    (t-change)=\"onChange${19:Email}(\\$event)\"",
+			"    (t-change-model)=\"onChangeModel${19:Email}(\\$event)\"",
+			">",
+			"</thf-email>"
+		],
+		"description": "THF 2 - Email"
+	},
+	"THF.2.Field.Container": {
+		"prefix": "<thf-field-container",
+		"body": [
+			"<thf-field-container",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    t-help=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-opcional=\"${5}\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-field-container>"
+		],
+		"description": "THF 2 - Field Container"
+	},
+	"THF.2.Grid": {
+		"prefix": "<thf-grid",
+		"body": [
+			"<thf-grid",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    [t-columns]=\"${3:gridColumns}\"",
+			"    [t-data]=\"${4:gridData}\"",
+			"    t-editable=\"${5|false,true|}\"",
+			"    t-groupable=\"${6|false,true|}\"",
+			"    t-selectable=\"${7|false,true|}\"",
+			"    t-sortable=\"${8|false,true|}\"",
+			"    t-add-action=\"${9:gridOnAdd}\"",
+			"    t-save-action=\"${10:gridOnSave}\"",
+			"    t-remove-action=\"${11:gridOnRemove}\"",
+			"    t-show-add-button=\"${12|false,true|}\"",
+			"    t-show-export-buttons=\"${13|false,true|}\"",
+			"    [t-show-more-disabled]=\"${14:gridShowMoreControl}\"",
+			"    t-show-remove-button=\"${15|false,true|}\"",
+			"    (t-show-more)=\"onShowMore${16:Grid}(\\$event)\"",
+			"    (t-save-value)=\"onSaveValue${16:Grid}(\\$event)\"",
+			"    (t-selection-change)=\"onSelecionChange${16:Grid}(\\$event)\"",
+			">",
+			"</thf-grid>"
+		],
+		"description": "THF 2 - Grid"
+	},
+	"THF.2.Info": {
+		"prefix": "<thf-info",
+		"body": [
+			"<thf-info",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    t-label=\"${3}\"",
+			"    t-value=\"${4}\"",
+			"    t-label-size=\"${5|1,2,3,4,5,6,7,8,9,10,11|}\"",
+			"    t-orientation=\"${6|vertical,horizontal|}\"",
+			">",
+			"</thf-info>"
+		],
+		"description": "THF 2 - Info"
+	},
+	"THF.2.Input": {
+		"prefix": "<thf-input",
+		"body": [
+			"<thf-input",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-help=\"${5}\"",
+			"    t-placeholder=\"${6}\"",
+			"    t-clean=\"${7|true,false|}\"",
+			"    t-icon=\"${8|thf-icon-agro-business,thf-icon-arrow-down,thf-icon-arrow-left,thf-icon-arrow-right,thf-icon-arrow-up,thf-icon-bar-code,thf-icon-basket,thf-icon-calendar,thf-icon-camera,thf-icon-cart,thf-icon-chat,thf-icon-clock,thf-icon-close,thf-icon-company,thf-icon-copy,thf-icon-credit-payment,thf-icon-debit-payment,thf-icon-delete,thf-icon-document,thf-icon-edit,thf-icon-exit,thf-icon-export,thf-icon-filter,thf-icon-finance,thf-icon-first-page,thf-icon-help,thf-icon-home,thf-icon-info,thf-icon-last-page,thf-icon-list,thf-icon-lock,thf-icon-logo-totvs,thf-icon-mail,thf-icon-menu,thf-icon-message,thf-icon-minus,thf-icon-money,thf-icon-more,thf-icon-news,thf-icon-no-signal,thf-icon-notification,thf-icon-ok,thf-icon-pin,thf-icon-plus,thf-icon-qr-code,thf-icon-sale,thf-icon-search,thf-icon-settings,thf-icon-share,thf-icon-sort,thf-icon-sort-asc,thf-icon-sort-desc,thf-icon-star,thf-icon-stock,thf-icon-table,thf-icon-telephone,thf-icon-user,thf-icon-user-add,thf-icon-wallet,thf-icon-warning,thf-icon-world|}\"",
+			"    t-mask=\"${9}\"",
+			"    t-mask-format-model=\"${10|false,true|}\"",
+			"    t-maxlength=\"${11}\"",
+			"    t-minlength=\"${12}\"",
+			"    t-disabled=\"${13|false,true|}\"",
+			"    t-focus=\"${14|false,true|}\"",
+			"    t-readonly=\"${15|false,true|}\"",
+			"    t-required=\"${16|false,true|}\"",
+			"    t-pattern=\"${17}\"",
+			"    t-error-pattern=\"${18}\"",
+			"    (t-blur)=\"onBlur${19:Input}(\\$event)\"",
+			"    (t-enter)=\"onEnter${19:Input}(\\$event)\"",
+			"    (t-change)=\"onChange${19:Input}(\\$event)\"",
+			"    (t-change-model)=\"onChangeModel${19:Input}(\\$event)\"",
+			">",
+			"</thf-input>"
+		],
+		"description": "THF 2 - Input"
+	},
+	"THF.2.List": {
+		"prefix": "<thf-list",
+		"body": [
+			"<thf-list",
+			"    [t-show-more-disabled]=\"${1:showMoreListControl}\"",
+			"    (t-show-more)=\"${2:onShowMoreList(\\$event)}\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-list>"
+		],
+		"description": "THF 2 - List"
+	},
+	"THF.2.List.Item": {
+		"prefix": "<thf-list-item",
+		"body": [
+			"<thf-list-item",
+			"    *ngFor=\"let ${2:item} of ${1:listItemData}; let ${3} = index\"",
+			"    [t-title]=\"${2}.${4:title}\"",
+			"    [t-actions]=\"${5:listItemActions}\"",
+			"    [t-index]=\"${3}\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-list-item>"
+		],
+		"description": "THF 2 - List Item"
+	},
+	"THF.2.List.Item.Content": {
+		"prefix": "<thf-list-item-content",
+		"body": [
+			"<thf-list-item-content>",
+			"",
+			"   $0",
+			"",
+			"</thf-list-item-content>"
+		],
+		"description": "THF 2 - List Item Content"
+	},
+	"THF.2.List.Item.Detail": {
+		"prefix": "<thf-list-item-detail",
+		"body": [
+			"<thf-list-item-detail>",
+			"",
+			"    $0",
+			"",
+			"</thf-list-item-detail>"
+		],
+		"description": "THF 2 - List Item Detail"
+	},
+	"THF.2.Loading.Overlay": {
+		"prefix": "<thf-loading-overlay",
+		"body": [
+			"<thf-loading-overlay",
+			"    t-screen-lock=\"${1|false,true|}\"",
+			"    t-text=\"${2: }\"",
+			">",
+			"</thf-loading-overlay>"
+		],
+		"description": "THF 2 - Loading Overlay"
+	},
+	"THF.2.Login": {
+		"prefix": "<thf-login",
+		"body": [
+			"<thf-login",
+			"    name=\"${1}\"",
+			"    [(ngModel)]=\"${1}\"",
+			"    t-label=\"${2}\"",
+			"    t-help=\"${3}\"",
+			"    t-placeholder=\"${4}\"",
+			"    t-icon=\"${5|thf-icon-agro-business,thf-icon-arrow-down,thf-icon-arrow-left,thf-icon-arrow-right,thf-icon-arrow-up,thf-icon-bar-code,thf-icon-basket,thf-icon-calendar,thf-icon-camera,thf-icon-cart,thf-icon-chat,thf-icon-clock,thf-icon-close,thf-icon-company,thf-icon-copy,thf-icon-credit-payment,thf-icon-debit-payment,thf-icon-delete,thf-icon-document,thf-icon-edit,thf-icon-exit,thf-icon-export,thf-icon-filter,thf-icon-finance,thf-icon-first-page,thf-icon-help,thf-icon-home,thf-icon-info,thf-icon-last-page,thf-icon-list,thf-icon-lock,thf-icon-logo-totvs,thf-icon-mail,thf-icon-menu,thf-icon-message,thf-icon-minus,thf-icon-money,thf-icon-more,thf-icon-news,thf-icon-no-signal,thf-icon-notification,thf-icon-ok,thf-icon-pin,thf-icon-plus,thf-icon-qr-code,thf-icon-sale,thf-icon-search,thf-icon-settings,thf-icon-share,thf-icon-sort,thf-icon-sort-asc,thf-icon-sort-desc,thf-icon-star,thf-icon-stock,thf-icon-table,thf-icon-telephone,thf-icon-user,thf-icon-user-add,thf-icon-wallet,thf-icon-warning,thf-icon-world|}\"",
+			"    t-maxlength=\"${6}\"",
+			"    t-minlength=\"${7}\"",
+			"    t-mask=\"${8}\"",
+			"    t-mask-format-model=\"${9|false,true|}\"",
+			"    t-clean=\"${10|true,false|}\"",
+			"    t-focus=\"${11|true,false|}\"",
+			"    t-disabled=\"${12|false,true|}\"",
+			"    t-readonly=\"${13|false,true|}\"",
+			"    t-required=\"${14|true,false|}\"",
+			"    t-pattern=\"${15}\"",
+			"    t-error-pattern=\"${16}\"",
+			"    (t-blur)=\"onBlur${17:Login}(\\$event)\"",
+			"    (t-enter)=\"onEnter${17:Login}(\\$event)\"",
+			"    (t-change)=\"onChange${17:Login}(\\$event)\"",
+			"    (t-change-model)=\"onChangeModel${17:Login}(\\$event)\"",
+			">",
+			"</thf-login>"
+		],
+		"description": "THF 2 - Login"
+	},
+	"THF.2.Lookup": {
+		"prefix": "<thf-lookup",
+		"body": [
+			"<thf-lookup",
+			"    name=\"${1}\"",
+			"    [(ngModel)]=\"${1}\"",
+			"    [t-columns]=\"${2:lookupColumns}\"",
+			"    [t-filter-service]=\"${3:lookupFilterService}\"",
+			"    t-field-label=\"${4}\"",
+			"    t-field-value=\"${5}\"",
+			"    t-label=\"${6}\"",
+			"    t-help=\"${7}\"",
+			"    t-placeholder=\"${8}\"",
+			"    t-focus=\"${9|true,false|}\"",
+			"    t-disabled=\"${10|false,true|}\"",
+			"    t-required=\"${11|true,false|}\"",
+			"    (t-error)=\"onError${12:Lookup}(\\$event)\"",
+			">",
+			"</thf-lookup>"
+		],
+		"description": "THF 2 - Lookup"
+	},
+	"THF.2.Menu": {
+		"prefix": "<thf-menu",
+		"body": [
+			"<thf-menu",
+			"    t-filter=\"${1|false,true|}\"",
+			"    [t-menus]=\"${2:menuItems}\"",
+			">",
+			"</thf-menu>"
+		],
+		"description": "THF 2 - Menu"
+	},
+	"THF.2.Menu.Panel": {
+		"prefix": "<thf-menu-panel",
+		"body": [
+			"<thf-menu-panel",
+			"    [t-menus]=\"${1:menuItems}\"",
+			">",
+			"</thf-menu-panel>"
+		],
+		"description": "THF 2 - Menu Panel"
+	},
+	"THF.2.Modal": {
+		"prefix": "<thf-modal",
+		"body": [
+			"<thf-modal",
+			"    #modal${1}",
+			"    t-title=\"${2}\"",
+			"    t-size=\"${3|auto,sm,md,lg,xl|}\"",
+			"    t-click-out=\"${4|false,true|}\"",
+			"    t-hide-close=\"${5|false,true|}\"",
+			"    [t-primary-action]=\"${6:modalPrimaryAction}\"",
+			"    [t-secondary-action]=\"${7:modalSecondaryAction}\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-modal>"
+		],
+		"description": "THF 2 - Modal"
+	},
+	"THF.2.Multiselect": {
+		"prefix": "<thf-multiselect",
+		"body": [
+			"<thf-multiselect",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-help=\"string\"${5}",
+			"    t-placeholder=\"${6}\"",
+			"    t-placeholder-search=\"${7:Search}\"",
+			"    [t-options]=\"${8:multiselectOptions}\"",
+			"    t-hide-search=\"${9|false,true|}\"",
+			"    t-disabled=\"${10|false,true|}\"",
+			"    t-filter-mode=\"${11|startsWith,contains,endsWith|}\"",
+			"    t-required=\"${12|false,true|}\"",
+			"    t-sort=\"${13}\"",
+			"    (t-change)=\"onChange${14:Multiselect}(\\$event)\"",
+			">",
+			"</thf-multiselect>"
+		],
+		"description": "THF 2 - Multiselect"
+	},
+	"THF.2.Number": {
+		"prefix": "<thf-number",
+		"body": [
+			"<thf-number",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-help=\"${5}\"",
+			"    t-placeholder=\"${6}\"",
+			"    t-clean=\"${7|true,false|}\"",
+			"    t-icon=\"${8|thf-icon-agro-business,thf-icon-arrow-down,thf-icon-arrow-left,thf-icon-arrow-right,thf-icon-arrow-up,thf-icon-bar-code,thf-icon-basket,thf-icon-calendar,thf-icon-camera,thf-icon-cart,thf-icon-chat,thf-icon-clock,thf-icon-close,thf-icon-company,thf-icon-copy,thf-icon-credit-payment,thf-icon-debit-payment,thf-icon-delete,thf-icon-document,thf-icon-edit,thf-icon-exit,thf-icon-export,thf-icon-filter,thf-icon-finance,thf-icon-first-page,thf-icon-help,thf-icon-home,thf-icon-info,thf-icon-last-page,thf-icon-list,thf-icon-lock,thf-icon-logo-totvs,thf-icon-mail,thf-icon-menu,thf-icon-message,thf-icon-minus,thf-icon-money,thf-icon-more,thf-icon-news,thf-icon-no-signal,thf-icon-notification,thf-icon-ok,thf-icon-pin,thf-icon-plus,thf-icon-qr-code,thf-icon-sale,thf-icon-search,thf-icon-settings,thf-icon-share,thf-icon-sort,thf-icon-sort-asc,thf-icon-sort-desc,thf-icon-star,thf-icon-stock,thf-icon-table,thf-icon-telephone,thf-icon-user,thf-icon-user-add,thf-icon-wallet,thf-icon-warning,thf-icon-world|}\"",
+			"    t-mask=\"${9}\"",
+			"    t-mask-format-model=\"${10|false,true|}\"",
+			"    t-maxlength=\"${11}\"",
+			"    t-minlength=\"${12}\"",
+			"    t-disabled=\"${13|false,true|}\"",
+			"    t-focus=\"${14|false,true|}\"",
+			"    t-readonly=\"${15|false,true|}\"",
+			"    t-required=\"${16|false,true|}\"",
+			"    t-pattern=\"${17}\"",
+			"    t-error-pattern=\"${18}\"",
+			"    t-max=\"${19}\"",
+			"    t-min=\"${20}\"",
+			"    t-step=\"${21:1}\"",
+			"    (t-blur)=\"onBlur${22:Number}(\\$event)\"",
+			"    (t-enter)=\"onEnter${22:Number}(\\$event)\"",
+			"    (t-change)=\"onChange${22:Number}(\\$event)\"",
+			"    (t-change-model)=\"onChangeModel${22:Number}(\\$event)\"",
+			">",
+			"</thf-number>"
+		],
+		"description": "THF 2 - Number"
+	},
+	"THF.2.Page.Default": {
+		"prefix": "<thf-page-default",
+		"body": [
+			"<thf-page-default",
+			"    t-title=\"${1}\"",
+			"    [t-actions]=\"${2:pageActions}\"",
+			"    [t-breadcrumb]=\"${3:pageBreadcrumb}\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-page-default>"
+		],
+		"description": "THF 2 - Page Default"
+	},
+	"THF.2.Page.Detail": {
+		"prefix": "<thf-page-detail",
+		"body": [
+			"<thf-page-detail",
+			"    t-title=\"${1}\"",
+			"    [t-breadcrumb]=\"${2:pageBreadcrumb}\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-page-detail>"
+		],
+		"description": "THF 2 - Page Detail"
+	},
+	"THF.2.Page.Edit": {
+		"prefix": "<thf-page-edit",
+		"body": [
+			"<thf-page-edit",
+			"    t-title=\"${1}\"",
+			"    t-disable-submit=\"${2|false,true|}\"",
+			"    [t-breadcrumb]=\"${3:pageBreadcrumb}\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-page-edit>"
+		],
+		"description": "THF 2 - Page Edit"
+	},
+	"THF.2.Page.List": {
+		"prefix": "<thf-page-list",
+		"body": [
+			"<thf-page-list",
+			"    t-title=\"${1}\"",
+			"    [t-actions]=\"${2:pageActions}\"",
+			"    [t-filter]=\"${3:pageFilter}\"",
+			"    [t-disclaimer-group]=\"${4:pageDisclaimerGroup}\"",
+			"    [t-breadcrumb]=\"${5:pageBreadcrumb}\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-page-list>"
+		],
+		"description": "THF 2 - Page List"
+	},
+	"THF.2.Page.Login": {
+		"prefix": "<thf-page-login",
+		"body": [
+			"<thf-page-login",
+			"    [t-loading]=\"${1:isLoading}\"",
+			"    [t-login]=\"${2:loginModel}\"",
+			"    t-recovery-url=\"${3}\"",
+			"    t-register-url=\"${4}\"",
+			"    t-hide-remember-user=\"${5|true,false|}\"",
+			"    t-background=\"${6}\"",
+			"    t-literals=\"${7:loginLiterals}\"",
+			"    t-login-pattern=\"${8}\" ",
+			"    t-password-pattern=\"${9}\"",
+			"    [t-custom-field]=\"${10:customField}\"",
+			"    (t-login-submit)=\"${11:onLoginSubmit(\\$event)}\"",
+			">",
+			"</thf-page-login>"
+		],
+		"description": "THF 2 - Page Login"
+	},
+	"THF.2.Password": {
+		"prefix": "<thf-password",
+		"body": [
+			"<thf-password",
+			"    name=\"${1}\"",
+			"    [(ngModel)]=\"${1}\"",
+			"    t-label=\"${2}\"",
+			"    t-help=\"${3}\"",
+			"    t-placeholder=\"${4}\"",
+			"    t-icon=\"${5|thf-icon-agro-business,thf-icon-arrow-down,thf-icon-arrow-left,thf-icon-arrow-right,thf-icon-arrow-up,thf-icon-bar-code,thf-icon-basket,thf-icon-calendar,thf-icon-camera,thf-icon-cart,thf-icon-chat,thf-icon-clock,thf-icon-close,thf-icon-company,thf-icon-copy,thf-icon-credit-payment,thf-icon-debit-payment,thf-icon-delete,thf-icon-document,thf-icon-edit,thf-icon-exit,thf-icon-export,thf-icon-filter,thf-icon-finance,thf-icon-first-page,thf-icon-help,thf-icon-home,thf-icon-info,thf-icon-last-page,thf-icon-list,thf-icon-lock,thf-icon-logo-totvs,thf-icon-mail,thf-icon-menu,thf-icon-message,thf-icon-minus,thf-icon-money,thf-icon-more,thf-icon-news,thf-icon-no-signal,thf-icon-notification,thf-icon-ok,thf-icon-pin,thf-icon-plus,thf-icon-qr-code,thf-icon-sale,thf-icon-search,thf-icon-settings,thf-icon-share,thf-icon-sort,thf-icon-sort-asc,thf-icon-sort-desc,thf-icon-star,thf-icon-stock,thf-icon-table,thf-icon-telephone,thf-icon-user,thf-icon-user-add,thf-icon-wallet,thf-icon-warning,thf-icon-world|}\"",
+			"    t-maxlength=\"${6}\"",
+			"    t-minlength=\"${7}\"",
+			"    t-mask=\"${8}\"",
+			"    t-mask-format-model=\"${9|false,true|}\"",
+			"    t-clean=\"${10|true,false|}\"",
+			"    t-focus=\"${11|true,false|}\"",
+			"    t-disabled=\"${12|false,true|}\"",
+			"    t-readonly=\"${13|false,true|}\"",
+			"    t-required=\"${14|true,false|}\"",
+			"    t-pattern=\"${15}\"",
+			"    t-error-pattern=\"${16}\"",
+			"    (t-blur)=\"onBlur${17:Password}(\\$event)\"",
+			"    (t-enter)=\"onEnter${17:Password}(\\$event)\"",
+			"    (t-change)=\"onChange${17:Password}(\\$event)\"",
+			"    (t-change-model)=\"onChangeModel${17:Password}(\\$event)\"",
+			">",
+			"</thf-password>"
+		],
+		"description": "THF 2 - Password"
+	},
+	"THF.2.Popover": {
+		"prefix": "<thf-popover",
+		"body": [
+			"<thf-popover",
+			"    #popover${1}",
+			"    t-title=\"${2}\"",
+			"    t-position=\"${3|right,right-top,right-bottom,top,top-left,top-right,left,left-top,left-bottom,bottom,bottom-left,bottom-right|}\"",
+			"    [t-target]=\"${4:tagetElementRef}\"",
+			"    t-trigger=\"${5|click,hover|}\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-popover>"
+		],
+		"description": "THF 2 - Popover"
+	},
+	"THF.2.Popup": {
+		"prefix": "<thf-popup",
+		"body": [
+			"<thf-popup",
+			"    #popup${1}",
+			"    [t-actions]=\"${2:popupActions}\"",
+			"    t-position=\"${3|bottom-left,right,right-top,right-bottom,top,top-left,top-right,left,left-top,left-bottom,bottom,bottom-right|}\"",
+			"    [t-target]=\"${4:tagetElementRef}\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-popup>"
+		],
+		"description": "THF 2 - Popup"
+	},
+	"THF.2.Radio.Group": {
+		"prefix": "<thf-radio-group",
+		"body": [
+			"<thf-radio-group",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-disabled=\"${5|false,true|}\"",
+			"    t-help=\"${6}\"",
+			"    t-required=\"${7|false,true|}\"",
+			"    [t-options]=\"${8:radioGroupOptions}\"",
+			"    (t-change)=\"onChange${9:RadioOption}(\\$event)\"",
+			">",
+			"</thf-radio-group>"
+		],
+		"description": "THF 2 - Radio Group"
+	},
+	"THF.2.Row": {
+		"prefix": "<thf-row",
+		"body": [
+			"<div class=\"thf-row\">",
+			"",
+			"    $0",
+			"",
+			"</div>"
+		],
+		"description": "THF 2 - Row"
+	},
+	"THF.2.Select": {
+		"prefix": "<thf-select",
+		"body": [
+			"<thf-select",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-help=\"string\"${5}",
+			"    t-placeholder=\"${6}\"",
+			"    [t-options]=\"${7:selectOptions}\"",
+			"    t-disabled=\"${8|false,true|}\"",
+			"    t-required=\"${9|false,true|}\"",
+			"    (t-blur)=\"onBlur${10:SelectOption}(\\$event)\"",
+			"    (t-enter)=\"onEnter${10:SelectOption}(\\$event)\"",
+			"    (t-change)=\"onChange${10:SelectOption}(\\$event)\"",
+			"    (t-change-model)=\"onChangeModel${10:SelectOption}(\\$event)\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-select>"
+		],
+		"description": "THF 2 - Select"
+	},
+	"THF.2.Select.Option.Template": {
+		"prefix": "<thf-select-option-template",
+		"body": [
+			"<ng-template t-select-option-template let-option>",
+			"",
+			"    {{ option.${1: } }}",
+			"",
+			"</ng-template>"
+		],
+		"description": "THF 2 - Select Option Template"
+	},
+	"THF.2.Stepper": {
+		"prefix": "<thf-stepper",
+		"body": [
+			"<thf-stepper",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    t-mode=\"${3|horizontal,vertical|}\"",
+			"    t-sequential=\"${4|true,false|}\"",
+			"    t-step=\"${5:1}\"",
+			"    [t-steps]=\"${6:stepperSteps}\"",
+			"    (t-change-step)=\"onChange${7:Step}(\\$event)\"",
+			">",
+			"</thf-stepper>"
+		],
+		"description": "THF 2 - Stepper"
+	},
+	"THF.2.Switch": {
+		"prefix": "<thf-switch",
+		"body": [
+			"<thf-switch",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-label-on=\"${5}\"",
+			"    t-label-off=\"${6}\"",
+			"    t-label-position=\"${7|right,left|}\"",
+			"    t-help=\"${8}\"",
+			"    t-disabled=\"${9|false,true|}\"",
+			"    t-required=\"${10|false,true|}\"",
+			"    (t-change)=\"onChange${11:Switch}(\\$event)\"",
+			">",
+			"</thf-switch>"
+		],
+		"description": "THF 2 - Switch"
+	},
+	"THF.2.Table": {
+		"prefix": "<thf-table",
+		"body": [
+			"<thf-table",
+			"    [t-items]=\"${1:tableItems}\"",
+			"    [t-columns]=\"${2:tableColumns}\"",
+			"    [t-actions]=\"${3:tableActions}\"",
+			"    t-height=\"${4}\"",
+			"    t-loading=\"${5|false,true|}\"",
+			"    t-checkbox=\"${6|false,true|}\"",
+			"    t-single-select=\"${7|false,true|}\"",
+			"    t-sort=\"${8|false,true|}\"",
+			"    t-striped=\"${9|false,true|}\"",
+			"    t-no-data=\"${10:No data found.}\"",
+			"    t-hide-detail=\"${11|false,true|}\"",
+			"    t-hide-select-all=\"${12|false,true|}\"",
+			"    t-hide-text-overflow=\"${13|false,true|}\"",
+			"    [t-show-more-disabled]=\"${14:tableShowMoreControl}\"",
+            "    (t-show-more)=\"onShowMore${15:Table}(\\$event)\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-table>"
+		],
+		"description": "THF 2 - Table"
+	},
+	"THF.2.Table.Row.Template": {
+		"prefix": "<thf-table-row-template",
+		"body": [
+			"<ng-template t-table-row-template let-rowItem let-i=\"rowIndex\" [t-table-row-template-show]=\"$1\">",
+			"",
+			"    $0",
+			"",
+			"</ng-template>"
+		],
+		"description": "THF 2 - Table Row Template"
+	},
+	"THF.2.Tabs": {
+		"prefix": "<thf-tabs",
+		"body": [
+			"<thf-tabs",
+			"    t-small=\"${1|false,true|}\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-tabs>"
+		],
+		"description": "THF 2 - Tabs"
+	},
+	"THF.2.Tab": {
+		"prefix": "<thf-tab",
+		"body": [
+			"<thf-tab",
+			"    t-id=\"${1|false,true|}\"",
+			"    t-label=\"${2|false,true|}\"",
+			"    t-hide=\"${3|false,true|}\"",
+			"    t-active=\"${4|false,true|}\"",
+			"    t-disabled=\"${5|false,true|}\"",
+			"    (t-click)=\"onClick${6:Tab}(\\$event)\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-tab>"
+		],
+		"description": "THF 2 - Tab"
+	},
+	"THF.2.Textarea": {
+		"prefix": "<thf-textarea",
+		"body": [
+			"<thf-textarea",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-help=\"${5}\"",
+			"    t-placeholder=\"${6}\"",
+			"    t-disabled=\"${7|false,true|}\"",
+			"    t-focus=\"${8|false,true|}\"",
+			"    t-readonly=\"${9|false,true|}\"",
+			"    t-required=\"${10|false,true|}\"",
+			"    t-max-length=\"${11}\"",
+			"    t-min-length=\"${12}\"",
+			"    t-rows=\"${13:3}\"",
+			"    (t-blur)=\"onBlur${14:Textarea}(\\$event)\"",
+			"    (t-enter)=\"onEnter${14:Textarea}(\\$event)\"",
+			"    (t-change)=\"onChange${14:Textarea}(\\$event)\"",
+			"    (t-change-model)=\"onChangeModel${14:Textarea}(\\$event)\"",
+			">",
+			"</thf-textarea>"
+		],
+		"description": "THF 2 - Textarea"
+	},
+	"THF.2.Toolbar": {
+		"prefix": "<thf-toolbar",
+		"body": [
+			"<thf-toolbar",
+			"    t-title=\"${1}\"",
+			"    [t-profile]=\"${2:toolbarProfile}\"",
+			"    [t-profile-actions]=\"${3:toolbarProfileActions}\"",
+			"    t-show-notification=\"${4|true,false|}\"",
+			"    [t-notification-number]=\"${5:toolbarNotifications}.length\"",
+			"    [t-notification-actions]=\"${6:toolbarNotificationActions}\"",
+			">",
+			"</thf-toolbar>"
+		],
+		"description": "THF 2 - Toolbar"
+	},
+	"THF.2.Upload": {
+		"prefix": "<thf-upload",
+		"body": [
+			"<thf-upload",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-help=\"${5}\"",
+			"    t-url=\"${6}\"",
+			"    t-multiple=\"${7|false,true|}\"    ",
+			"    t-required=\"${8|false,true|}\"",
+			"    t-disabled=\"${9|false,true|}\"",
+			"    t-form-field=\"${10:files}\"",
+			"    t-auto-upload=\"${11|false,true|}\"",
+			"    t-file-restrictions=\"${12:fileUploadRestrictions}\"",
+			"    (t-error)=\"onError${13:Upload}(\\$event)\"",
+			"    (t-success)=\"onSuccess${13:Upload}(\\$event)\"",
+			"    (t-upload)=\"onUpload${14}(\\$event)\"",
+			">",
+			"</thf-upload>"
+		],
+		"description": "THF 2 - Upload"
+	},
+	"THF.2.Url": {
+		"prefix": "<thf-url",
+		"body": [
+			"<thf-url",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    name=\"${3}\"",
+			"    [(ngModel)]=\"${3}\"",
+			"    t-label=\"${4}\"",
+			"    t-help=\"${5}\"",
+			"    t-placeholder=\"${6}\"",
+			"    t-clean=\"${7|true,false|}\"",
+			"    t-icon=\"${8|thf-icon-agro-business,thf-icon-arrow-down,thf-icon-arrow-left,thf-icon-arrow-right,thf-icon-arrow-up,thf-icon-bar-code,thf-icon-basket,thf-icon-calendar,thf-icon-camera,thf-icon-cart,thf-icon-chat,thf-icon-clock,thf-icon-close,thf-icon-company,thf-icon-copy,thf-icon-credit-payment,thf-icon-debit-payment,thf-icon-delete,thf-icon-document,thf-icon-edit,thf-icon-exit,thf-icon-export,thf-icon-filter,thf-icon-finance,thf-icon-first-page,thf-icon-help,thf-icon-home,thf-icon-info,thf-icon-last-page,thf-icon-list,thf-icon-lock,thf-icon-logo-totvs,thf-icon-mail,thf-icon-menu,thf-icon-message,thf-icon-minus,thf-icon-money,thf-icon-more,thf-icon-news,thf-icon-no-signal,thf-icon-notification,thf-icon-ok,thf-icon-pin,thf-icon-plus,thf-icon-qr-code,thf-icon-sale,thf-icon-search,thf-icon-settings,thf-icon-share,thf-icon-sort,thf-icon-sort-asc,thf-icon-sort-desc,thf-icon-star,thf-icon-stock,thf-icon-table,thf-icon-telephone,thf-icon-user,thf-icon-user-add,thf-icon-wallet,thf-icon-warning,thf-icon-world|}\"",
+			"    t-mask=\"${9}\"",
+			"    t-mask-format-model=\"${10|false,true|}\"",
+			"    t-maxlength=\"${11}\"",
+			"    t-minlength=\"${12}\"",
+			"    t-disabled=\"${13|false,true|}\"",
+			"    t-focus=\"${14|false,true|}\"",
+			"    t-readonly=\"${15|false,true|}\"",
+			"    t-required=\"${16|false,true|}\"",
+			"    t-pattern=\"${17}\"",
+			"    t-error-pattern=\"${18}\"",
+			"    (t-blur)=\"onBlur${19:Url}(\\$event)\"",
+			"    (t-enter)=\"onEnter${19:Url}(\\$event)\"",
+			"    (t-change)=\"onChange${19:Url}(\\$event)\"",
+			"    (t-change-model)=\"onChangeModel${19:Url}(\\$event)\"",
+			">",
+			"</thf-url>"
+		],
+		"description": "THF 2 - URL"
+	},
+	"THF.2.Widget": {
+		"prefix": "<thf-widget",
+		"body": [
+			"<thf-widget",
+			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
+			"    t-title=\"${3}\"",
+			"    t-help=\"${4}\"",
+			"    t-size=\"${5|sm,md,lg,xl|}\"",
+			"    t-height=\"${6:200}\"",
+			"    t-primary-label=\"${7}\"",
+			"    t-secondary-label=\"${8}\"",
+			"    t-no-shadow=\"${9|true,false|}\"",
+			"    t-background=\"${10}\"",
+			"    (t-setting)=\"onSetting${11:Widget}(\\$event)\"",
+			"    (t-primary-action)=\"onPrimaryAction${11:Widget}(\\$event)\"",
+			"    (t-secondary-action)=\"onSecondaryAction${11:Widget}(\\$event)\"",
+			">",
+			"",
+			"    $0",
+			"",
+			"</thf-widget>"
+		],
+		"description": "THF 2 - Widget"
+	},
+	"THF.2.Directive.Tooltip": {
+		"prefix": "thf-tooltip",
+		"body": ["t-tooltip=\"$0\""],
+		"description": "THF 2 - Directive Tooltip"
+	},
+	"THF.2.Directive.Tooltip.Position": {
+		"prefix": "thf-tooltip-position",
+		"body": ["t-tooltip=\"${1|right,right-top,right-bottom,top,top-left,top-right,left,left-top,left-bottom,bottom,bottom-left,bottom-right|}\""],
+		"description": "THF 2 - Directive Tooltip Position"
+	},
+	"THF.2.I18N": {
+		"prefix": "thf-i18n",
+		"body": ["{{ literals?.$0 }}"],
+		"description": "THF 2 - HTML I18N"
+	},
+	"THF.2.I18N.PARAM": {
+		"prefix": "thf-i18n-parameter",
+		"body": ["{{ literals?.${1} | thfI18n:[$0] }}"],
+		"description": "THF 2 - HTML I18N"
+	}
+}
