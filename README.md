@@ -4,7 +4,7 @@ This extension for Visual Studio Code adds HTML|Angular snippets for TOTVS HTML 
 
 ![Use Extension](https://github.com/totvs/thf-angular-snippets/raw/master/assets/images/totvs-thf2-snippets.gif)
 
-THF2 Suported version: `1.8.0`
+THF2 Suported version: [`1.8.1`](https://thf.totvs.com.br/release-notes/1.0.0-ui)
 
 ## Usage
 Type part of a snippet, press `enter`, and the snippet unfolds.
@@ -62,6 +62,7 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 * [`<thf-toolbar>`](https://thf.totvs.com.br/documentation/thf-toolbar)
 * [`<thf-url>`](https://thf.totvs.com.br/documentation/thf-url)
 * [`<thf-widget>`](https://thf.totvs.com.br/documentation/thf-widget)
+* [`<thf-wrapper>`](https://thf.totvs.com.br/documentation/thf-menu)
 
 ### Directives Snippets
 * [`thf-tooltip`](https://thf.totvs.com.br/documentation/thf-tooltip)
@@ -74,6 +75,11 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
 
 ## Release Notes
+
+1.0.1
+* Added the output `t-selected` and the input `t-field-format` to the `thf-lookup`;
+* In the `thf-lookup` the property `t-title` now has as default value, the value of `t-label`;
+* Added the pseudo component `thf-wrapper`;
 
 1.0.0
 * Initial release.
