@@ -1,8 +1,8 @@
 {
     "name": "thf-angular-snippets",
     "publisher": "scartecjv",
-    "displayName": "THF 2 Angular Snippets for VSCode",
-    "description": "TOTVS HTML Framework 2 Angular snippets by TOTVS.",
+    "displayName": "THF Angular Snippets for VSCode",
+    "description": "TOTVS HTML Framework Angular snippets by TOTVS.",
     "icon": "assets/images/thf.png",
     "galleryBanner": {
         "color": "#333",
@@ -17,10 +17,11 @@
     "keywords": [
         "ANGULAR",
         "TOTVS",
-        "THF2",
-        "THF2 SNIPPETS"
+        "THF",
+        "THF ANGULAR",
+        "THF SNIPPETS"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.8.0"
     },

@@ -1,10 +1,10 @@
-# [TOTVS HTML Framework 2](https://thf.totvs.com.br/) Angular Snippets for VS CODE
+# [TOTVS HTML Framework](https://thf.totvs.com.br/) Angular Snippets for VS CODE
 
-This extension for Visual Studio Code adds HTML|Angular snippets for TOTVS HTML Framework 2.
+This extension for Visual Studio Code adds HTML|Angular snippets for TOTVS HTML Framework.
 
-![Use Extension](https://github.com/totvs/thf-angular-snippets/raw/master/assets/images/totvs-thf2-snippets.gif)
+![Use Extension](https://github.com/totvs/thf-angular-snippets/raw/master/assets/images/totvs-thf-snippets.gif)
 
-THF2 Suported version: [`1.8.1`](https://thf.totvs.com.br/release-notes/1.0.0-ui)
+THF Suported version: [`1.8.1`](https://thf.totvs.com.br/release-notes/1.0.0-ui)
 
 ## Usage
 Type part of a snippet, press `enter`, and the snippet unfolds.
@@ -75,6 +75,9 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
 
 ## Release Notes
+
+1.0.2
+* Renamed for TOTVS HTML Framework Angular aka `THF Angular`.
 
 1.0.1
 * Added the output `t-selected` and the input `t-field-format` to the `thf-lookup`;

@@ -1,5 +1,5 @@
 {
-	"THF.2.Avatar": {
+	"THF.Avatar": {
 		"prefix": "<thf-avatar",
 		"body": [
 			"<thf-avatar",
@@ -8,9 +8,9 @@
 			">",
 			"</thf-avatar>$0"
 		],
-		"description": "THF 2 - Avatar"
+		"description": "THF - Avatar"
 	},
-	"THF.2.Button": {
+	"THF.Button": {
 		"prefix": "<thf-button",
 		"body": [
 			"<thf-button",
@@ -24,9 +24,9 @@
 			">",
 			"</thf-button>$0"
 		],
-		"description": "THF 2 - Button"
+		"description": "THF - Button"
 	},
-	"THF.2.Button.Group": {
+	"THF.Button.Group": {
 		"prefix": "<thf-button-group",
 		"body": [
 			"<thf-button-group",
@@ -36,9 +36,9 @@
 			">",
 			"</thf-button-group>$0"
 		],
-		"description": "THF 2 - Button Group"
+		"description": "THF - Button Group"
 	},
-	"THF.2.Chart": {
+	"THF.Chart": {
 		"prefix": "<thf-chart",
 		"body": [
 			"<thf-chart",
@@ -56,9 +56,9 @@
 			">",
 			"</thf-chart>$0"
 		],
-		"description": "THF 2 - Chart"
+		"description": "THF - Chart"
 	},
-	"THF.2.Checkbox.Group": {
+	"THF.Checkbox.Group": {
 		"prefix": "<thf-checkbox-group",
 		"body": [
 			"<thf-checkbox-group",
@@ -75,9 +75,9 @@
 			">",
 			"</thf-checkbox-group>$0"
 		],
-		"description": "THF 2 - Checkbox Group"
+		"description": "THF - Checkbox Group"
 	},
-	"THF.2.Code.Editor": {
+	"THF.Code.Editor": {
 		"prefix": "<thf-code-editor",
 		"body": [
 			"<thf-code-editor",
@@ -92,9 +92,9 @@
 			">",
 			"</thf-code-editor>$0"
 		],
-		"description": "THF 2 - Code Editor"
+		"description": "THF - Code Editor"
 	},
-	"THF.2.Column": {
+	"THF.Column": {
 		"prefix": "<thf-column",
 		"body": [
 			"<div class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\">",
@@ -103,9 +103,9 @@
 			"",
 			"</div>"
 		],
-		"description": "THF 2 - Column"
+		"description": "THF - Column"
 	},
-	"THF.2.Combo": {
+	"THF.Combo": {
 		"prefix": "<thf-combo",
 		"body": [
 			"<thf-combo",
@@ -130,9 +130,9 @@
 			">",
 			"</thf-combo>$0"
 		],
-		"description": "THF 2 - Combo"
+		"description": "THF - Combo"
 	},
-	"THF.2.Datepicker": {
+	"THF.Datepicker": {
 		"prefix": "<thf-datepicker",
 		"body": [
 			"<thf-datepicker",
@@ -157,9 +157,9 @@
 			">",
 			"</thf-datepicker>$0"
 		],
-		"description": "THF 2 - Datepicker"
+		"description": "THF - Datepicker"
 	},
-	"THF.2.Decimal": {
+	"THF.Decimal": {
 		"prefix": "<thf-decimal",
 		"body": [
 			"<thf-decimal",
@@ -190,9 +190,9 @@
 			">",
 			"</thf-decimal>$0"
 		],
-		"description": "THF 2 - Decimal"
+		"description": "THF - Decimal"
 	},
-	"THF.2.Dropdown": {
+	"THF.Dropdown": {
 		"prefix": "<thf-dropdown",
 		"body": [
 			"<thf-dropdown",
@@ -202,9 +202,9 @@
 			">",
 			"</thf-dropdown>$0"
 		],
-		"description": "THF 2 - Dropdown"
+		"description": "THF - Dropdown"
 	},
-	"THF.2.Email": {
+	"THF.Email": {
 		"prefix": "<thf-email",
 		"body": [
 			"<thf-email",
@@ -233,9 +233,9 @@
 			">",
 			"</thf-email>$0"
 		],
-		"description": "THF 2 - Email"
+		"description": "THF - Email"
 	},
-	"THF.2.Field.Container": {
+	"THF.Field.Container": {
 		"prefix": "<thf-field-container",
 		"body": [
 			"<thf-field-container",
@@ -249,9 +249,9 @@
 			"",
 			"</thf-field-container>"
 		],
-		"description": "THF 2 - Field Container"
+		"description": "THF - Field Container"
 	},
-	"THF.2.Grid": {
+	"THF.Grid": {
 		"prefix": "<thf-grid",
 		"body": [
 			"<thf-grid",
@@ -275,9 +275,9 @@
 			">",
 			"</thf-grid>$0"
 		],
-		"description": "THF 2 - Grid"
+		"description": "THF - Grid"
 	},
-	"THF.2.Info": {
+	"THF.Info": {
 		"prefix": "<thf-info",
 		"body": [
 			"<thf-info",
@@ -289,9 +289,9 @@
 			">",
 			"</thf-info>$0"
 		],
-		"description": "THF 2 - Info"
+		"description": "THF - Info"
 	},
-	"THF.2.Input": {
+	"THF.Input": {
 		"prefix": "<thf-input",
 		"body": [
 			"<thf-input",
@@ -320,9 +320,9 @@
 			">",
 			"</thf-input>$0"
 		],
-		"description": "THF 2 - Input"
+		"description": "THF - Input"
 	},
-	"THF.2.List": {
+	"THF.List": {
 		"prefix": "<thf-list",
 		"body": [
 			"<thf-list",
@@ -334,9 +334,9 @@
 			"",
 			"</thf-list>"
 		],
-		"description": "THF 2 - List"
+		"description": "THF - List"
 	},
-	"THF.2.List.Item": {
+	"THF.List.Item": {
 		"prefix": "<thf-list-item",
 		"body": [
 			"<thf-list-item",
@@ -350,9 +350,9 @@
 			"",
 			"</thf-list-item>"
 		],
-		"description": "THF 2 - List Item"
+		"description": "THF - List Item"
 	},
-	"THF.2.List.Item.Content": {
+	"THF.List.Item.Content": {
 		"prefix": "<thf-list-item-content",
 		"body": [
 			"<thf-list-item-content>",
@@ -361,9 +361,9 @@
 			"",
 			"</thf-list-item-content>"
 		],
-		"description": "THF 2 - List Item Content"
+		"description": "THF - List Item Content"
 	},
-	"THF.2.List.Item.Detail": {
+	"THF.List.Item.Detail": {
 		"prefix": "<thf-list-item-detail",
 		"body": [
 			"<thf-list-item-detail>",
@@ -372,9 +372,9 @@
 			"",
 			"</thf-list-item-detail>"
 		],
-		"description": "THF 2 - List Item Detail"
+		"description": "THF - List Item Detail"
 	},
-	"THF.2.Loading.Overlay": {
+	"THF.Loading.Overlay": {
 		"prefix": "<thf-loading-overlay",
 		"body": [
 			"<thf-loading-overlay",
@@ -383,9 +383,9 @@
 			">",
 			"</thf-loading-overlay>$0"
 		],
-		"description": "THF 2 - Loading Overlay"
+		"description": "THF - Loading Overlay"
 	},
-	"THF.2.Login": {
+	"THF.Login": {
 		"prefix": "<thf-login",
 		"body": [
 			"<thf-login",
@@ -413,9 +413,9 @@
 			">",
 			"</thf-login>$0"
 		],
-		"description": "THF 2 - Login"
+		"description": "THF - Login"
 	},
-	"THF.2.Lookup": {
+	"THF.Lookup": {
 		"prefix": "<thf-lookup",
 		"body": [
 			"<thf-lookup",
@@ -438,9 +438,9 @@
 			">",
 			"</thf-lookup>$0"
 		],
-		"description": "THF 2 - Lookup"
+		"description": "THF - Lookup"
 	},
-	"THF.2.Menu": {
+	"THF.Menu": {
 		"prefix": "<thf-menu",
 		"body": [
 			"<thf-menu",
@@ -449,9 +449,9 @@
 			">",
 			"</thf-menu>$0"
 		],
-		"description": "THF 2 - Menu"
+		"description": "THF - Menu"
 	},
-	"THF.2.Menu.Panel": {
+	"THF.Menu.Panel": {
 		"prefix": "<thf-menu-panel",
 		"body": [
 			"<thf-menu-panel",
@@ -459,9 +459,9 @@
 			">",
 			"</thf-menu-panel>$0"
 		],
-		"description": "THF 2 - Menu Panel"
+		"description": "THF - Menu Panel"
 	},
-	"THF.2.Modal": {
+	"THF.Modal": {
 		"prefix": "<thf-modal",
 		"body": [
 			"<thf-modal",
@@ -478,9 +478,9 @@
 			"",
 			"</thf-modal>"
 		],
-		"description": "THF 2 - Modal"
+		"description": "THF - Modal"
 	},
-	"THF.2.Multiselect": {
+	"THF.Multiselect": {
 		"prefix": "<thf-multiselect",
 		"body": [
 			"<thf-multiselect",
@@ -501,9 +501,9 @@
 			">",
 			"</thf-multiselect>$0"
 		],
-		"description": "THF 2 - Multiselect"
+		"description": "THF - Multiselect"
 	},
-	"THF.2.Number": {
+	"THF.Number": {
 		"prefix": "<thf-number",
 		"body": [
 			"<thf-number",
@@ -535,9 +535,9 @@
 			">",
 			"</thf-number>$0"
 		],
-		"description": "THF 2 - Number"
+		"description": "THF - Number"
 	},
-	"THF.2.Page.Default": {
+	"THF.Page.Default": {
 		"prefix": "<thf-page-default",
 		"body": [
 			"<thf-page-default",
@@ -550,9 +550,9 @@
 			"",
 			"</thf-page-default>"
 		],
-		"description": "THF 2 - Page Default"
+		"description": "THF - Page Default"
 	},
-	"THF.2.Page.Detail": {
+	"THF.Page.Detail": {
 		"prefix": "<thf-page-detail",
 		"body": [
 			"<thf-page-detail",
@@ -564,9 +564,9 @@
 			"",
 			"</thf-page-detail>"
 		],
-		"description": "THF 2 - Page Detail"
+		"description": "THF - Page Detail"
 	},
-	"THF.2.Page.Edit": {
+	"THF.Page.Edit": {
 		"prefix": "<thf-page-edit",
 		"body": [
 			"<thf-page-edit",
@@ -579,9 +579,9 @@
 			"",
 			"</thf-page-edit>"
 		],
-		"description": "THF 2 - Page Edit"
+		"description": "THF - Page Edit"
 	},
-	"THF.2.Page.List": {
+	"THF.Page.List": {
 		"prefix": "<thf-page-list",
 		"body": [
 			"<thf-page-list",
@@ -596,9 +596,9 @@
 			"",
 			"</thf-page-list>"
 		],
-		"description": "THF 2 - Page List"
+		"description": "THF - Page List"
 	},
-	"THF.2.Page.Login": {
+	"THF.Page.Login": {
 		"prefix": "<thf-page-login",
 		"body": [
 			"<thf-page-login",
@@ -616,9 +616,9 @@
 			">",
 			"</thf-page-login>$0"
 		],
-		"description": "THF 2 - Page Login"
+		"description": "THF - Page Login"
 	},
-	"THF.2.Password": {
+	"THF.Password": {
 		"prefix": "<thf-password",
 		"body": [
 			"<thf-password",
@@ -646,9 +646,9 @@
 			">",
 			"</thf-password>$0"
 		],
-		"description": "THF 2 - Password"
+		"description": "THF - Password"
 	},
-	"THF.2.Popover": {
+	"THF.Popover": {
 		"prefix": "<thf-popover",
 		"body": [
 			"<thf-popover",
@@ -663,9 +663,9 @@
 			"",
 			"</thf-popover>"
 		],
-		"description": "THF 2 - Popover"
+		"description": "THF - Popover"
 	},
-	"THF.2.Popup": {
+	"THF.Popup": {
 		"prefix": "<thf-popup",
 		"body": [
 			"<thf-popup",
@@ -679,9 +679,9 @@
 			"",
 			"</thf-popup>"
 		],
-		"description": "THF 2 - Popup"
+		"description": "THF - Popup"
 	},
-	"THF.2.Radio.Group": {
+	"THF.Radio.Group": {
 		"prefix": "<thf-radio-group",
 		"body": [
 			"<thf-radio-group",
@@ -697,9 +697,9 @@
 			">",
 			"</thf-radio-group>$0"
 		],
-		"description": "THF 2 - Radio Group"
+		"description": "THF - Radio Group"
 	},
-	"THF.2.Row": {
+	"THF.Row": {
 		"prefix": "<thf-row",
 		"body": [
 			"<div class=\"thf-row\">",
@@ -708,9 +708,9 @@
 			"",
 			"</div>"
 		],
-		"description": "THF 2 - Row"
+		"description": "THF - Row"
 	},
-	"THF.2.Select": {
+	"THF.Select": {
 		"prefix": "<thf-select",
 		"body": [
 			"<thf-select",
@@ -733,9 +733,9 @@
 			"",
 			"</thf-select>"
 		],
-		"description": "THF 2 - Select"
+		"description": "THF - Select"
 	},
-	"THF.2.Select.Option.Template": {
+	"THF.Select.Option.Template": {
 		"prefix": "<thf-select-option-template",
 		"body": [
 			"<ng-template t-select-option-template let-option>",
@@ -744,9 +744,9 @@
 			"",
 			"</ng-template>"
 		],
-		"description": "THF 2 - Select Option Template"
+		"description": "THF - Select Option Template"
 	},
-	"THF.2.Stepper": {
+	"THF.Stepper": {
 		"prefix": "<thf-stepper",
 		"body": [
 			"<thf-stepper",
@@ -759,9 +759,9 @@
 			">",
 			"</thf-stepper>$0"
 		],
-		"description": "THF 2 - Stepper"
+		"description": "THF - Stepper"
 	},
-	"THF.2.Switch": {
+	"THF.Switch": {
 		"prefix": "<thf-switch",
 		"body": [
 			"<thf-switch",
@@ -779,9 +779,9 @@
 			">",
 			"</thf-switch>$0"
 		],
-		"description": "THF 2 - Switch"
+		"description": "THF - Switch"
 	},
-	"THF.2.Table": {
+	"THF.Table": {
 		"prefix": "<thf-table",
 		"body": [
 			"<thf-table",
@@ -806,9 +806,9 @@
 			"",
 			"</thf-table>"
 		],
-		"description": "THF 2 - Table"
+		"description": "THF - Table"
 	},
-	"THF.2.Table.Row.Template": {
+	"THF.Table.Row.Template": {
 		"prefix": "<thf-table-row-template",
 		"body": [
 			"<ng-template t-table-row-template let-rowItem let-i=\"rowIndex\" [t-table-row-template-show]=\"$1\">",
@@ -817,9 +817,9 @@
 			"",
 			"</ng-template>"
 		],
-		"description": "THF 2 - Table Row Template"
+		"description": "THF - Table Row Template"
 	},
-	"THF.2.Tabs": {
+	"THF.Tabs": {
 		"prefix": "<thf-tabs",
 		"body": [
 			"<thf-tabs",
@@ -830,9 +830,9 @@
 			"",
 			"</thf-tabs>"
 		],
-		"description": "THF 2 - Tabs"
+		"description": "THF - Tabs"
 	},
-	"THF.2.Tab": {
+	"THF.Tab": {
 		"prefix": "<thf-tab",
 		"body": [
 			"<thf-tab",
@@ -848,9 +848,9 @@
 			"",
 			"</thf-tab>"
 		],
-		"description": "THF 2 - Tab"
+		"description": "THF - Tab"
 	},
-	"THF.2.Textarea": {
+	"THF.Textarea": {
 		"prefix": "<thf-textarea",
 		"body": [
 			"<thf-textarea",
@@ -874,9 +874,9 @@
 			">",
 			"</thf-textarea>$0"
 		],
-		"description": "THF 2 - Textarea"
+		"description": "THF - Textarea"
 	},
-	"THF.2.Toolbar": {
+	"THF.Toolbar": {
 		"prefix": "<thf-toolbar",
 		"body": [
 			"<thf-toolbar",
@@ -889,9 +889,9 @@
 			">",
 			"</thf-toolbar>$0"
 		],
-		"description": "THF 2 - Toolbar"
+		"description": "THF - Toolbar"
 	},
-	"THF.2.Upload": {
+	"THF.Upload": {
 		"prefix": "<thf-upload",
 		"body": [
 			"<thf-upload",
@@ -913,9 +913,9 @@
 			">",
 			"</thf-upload>$0"
 		],
-		"description": "THF 2 - Upload"
+		"description": "THF - Upload"
 	},
-	"THF.2.Url": {
+	"THF.Url": {
 		"prefix": "<thf-url",
 		"body": [
 			"<thf-url",
@@ -944,9 +944,9 @@
 			">",
 			"</thf-url>$0"
 		],
-		"description": "THF 2 - URL"
+		"description": "THF - URL"
 	},
-	"THF.2.Widget": {
+	"THF.Widget": {
 		"prefix": "<thf-widget",
 		"body": [
 			"<thf-widget",
@@ -968,9 +968,9 @@
 			"",
 			"</thf-widget>"
 		],
-		"description": "THF 2 - Widget"
+		"description": "THF - Widget"
 	},
-	"THF.2.Wrapper": {
+	"THF.Wrapper": {
 		"prefix": "thf-wrapper",
 		"body": [
 			"<div class=\"thf-wrapper\">",
@@ -979,26 +979,26 @@
 			"",
 			"</div>"
 		],
-		"description": "THF 2 - Wrapper"
+		"description": "THF - Wrapper"
 	},
-	"THF.2.Directive.Tooltip": {
+	"THF.Directive.Tooltip": {
 		"prefix": "thf-tooltip",
 		"body": ["t-tooltip=\"$0\""],
-		"description": "THF 2 - Directive Tooltip"
+		"description": "THF - Directive Tooltip"
 	},
-	"THF.2.Directive.Tooltip.Position": {
+	"THF.Directive.Tooltip.Position": {
 		"prefix": "thf-tooltip-position",
 		"body": ["t-tooltip=\"${1|right,right-top,right-bottom,top,top-left,top-right,left,left-top,left-bottom,bottom,bottom-left,bottom-right|}\""],
-		"description": "THF 2 - Directive Tooltip Position"
+		"description": "THF - Directive Tooltip Position"
 	},
-	"THF.2.I18N": {
+	"THF.I18N": {
 		"prefix": "thf-i18n",
 		"body": ["{{ literals?.$0 }}"],
-		"description": "THF 2 - HTML I18N"
+		"description": "THF - HTML I18N"
 	},
-	"THF.2.I18N.PARAM": {
+	"THF.I18N.PARAM": {
 		"prefix": "thf-i18n-parameter",
 		"body": ["{{ literals?.${1} | thfI18n:[$0] }}"],
-		"description": "THF 2 - HTML I18N"
+		"description": "THF - HTML I18N"
 	}
 }
