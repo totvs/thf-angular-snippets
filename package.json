@@ -34,6 +34,18 @@
                 "language": "html",
                 "path": "./snippets/html.json"
             }
+        ],
+        "keybindings": [
+            {
+                "key": "tab",
+                "command": "jumpToNextSnippetPlaceholder",
+                "when": "editorTextFocus && hasNextTabstop && inSnippetMode"
+            },
+            {
+                "key": "shift+tab",
+                "command": "jumpToPrevSnippetPlaceholder",
+                "when": "editorTextFocus && hasPrevTabstop && inSnippetMode"
+            }
         ]
     }
 }
