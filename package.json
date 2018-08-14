@@ -21,7 +21,7 @@
         "THF ANGULAR",
         "THF SNIPPETS"
     ],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "engines": {
         "vscode": "^1.8.0"
     },

@@ -799,7 +799,7 @@
 			"    t-hide-select-all=\"${12|false,true|}\"",
 			"    t-hide-text-overflow=\"${13|false,true|}\"",
 			"    [t-show-more-disabled]=\"${14:tableShowMoreControl}\"",
-            "    (t-show-more)=\"onShowMore${15:Table}(\\$event)\"",
+			"    (t-show-more)=\"onShowMore${15:Table}(\\$event)\"",
 			">",
 			"",
 			"    $0",
@@ -983,22 +983,43 @@
 	},
 	"THF.Directive.Tooltip": {
 		"prefix": "thf-tooltip",
-		"body": ["t-tooltip=\"$0\""],
+		"body": [
+			"t-tooltip=\"$0\""
+		],
 		"description": "THF - Directive Tooltip"
 	},
 	"THF.Directive.Tooltip.Position": {
 		"prefix": "thf-tooltip-position",
-		"body": ["t-tooltip=\"${1|right,right-top,right-bottom,top,top-left,top-right,left,left-top,left-bottom,bottom,bottom-left,bottom-right|}\""],
+		"body": [
+			"t-tooltip=\"${1|right,right-top,right-bottom,top,top-left,top-right,left,left-top,left-bottom,bottom,bottom-left,bottom-right|}\""
+		],
 		"description": "THF - Directive Tooltip Position"
 	},
 	"THF.I18N": {
 		"prefix": "thf-i18n",
-		"body": ["{{ literals?.$0 }}"],
+		"body": [
+			"{{ literals?.$0 }}"
+		],
 		"description": "THF - HTML I18N"
 	},
 	"THF.I18N.PARAM": {
 		"prefix": "thf-i18n-parameter",
-		"body": ["{{ literals?.${1} | thfI18n:[$0] }}"],
+		"body": [
+			"{{ literals?.${1} | thfI18n:[$0] }}"
+		],
 		"description": "THF - HTML I18N"
+	},
+	"THF.Disclaimer.Group": {
+		"prefix": "<thf-disclaimer-group",
+		"body": [
+			"<thf-disclaimer-group",
+			"    t-title=\"${1}\"",
+			"    [t-disclaimers]=\"${2:disclaimerGroup}\"",
+			"    t-hide-remove-all=\"${3|false,true|}\"",
+			"    (t-change)=\"onChange${4:DisclaimerGroup}(\\$event)\"",
+			">",
+			"</thf-disclaimer-group>$0"
+		],
+		"description": "THF - Disclaimer Group"
 	}
 }
