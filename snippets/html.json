@@ -1021,5 +1021,17 @@
 			"</thf-disclaimer-group>$0"
 		],
 		"description": "THF - Disclaimer Group"
+	},
+	"THF.Breadcrumb": {
+		"prefix": "<thf-breadcrumb",
+		"body": [
+			"<thf-breadcrumb",
+			"    [t-items]=\"${1:breadcrumbItems}\"",
+			"    t-params-service=\"${2}\"",
+			"    t-favorite-service=\"${3}\"",
+			">",
+			"</thf-breadcrumb>$0"
+		],
+		"description": "THF - Breadcrumb"
 	}
 }

@@ -4,7 +4,7 @@ This extension for Visual Studio Code adds HTML|Angular snippets for TOTVS HTML 
 
 ![Use Extension](https://github.com/totvs/thf-angular-snippets/raw/master/assets/images/totvs-thf-snippets.gif)
 
-THF Suported version: [`1.9.0`](https://thf.totvs.com.br/release-notes/1.0.0-ui)
+THF Suported version: [`1.10.0`](https://thf.totvs.com.br/release-notes/1.0.0-ui)
 
 ## Usage
 Type part of a snippet, press `enter`, and the snippet unfolds.
@@ -14,6 +14,7 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 * [`<thf-avatar>`](https://thf.totvs.com.br/documentation/thf-avatar)
 * [`<thf-button>`](https://thf.totvs.com.br/documentation/thf-button)
 * [`<thf-button-group>`](https://thf.totvs.com.br/documentation/thf-button-group)
+* [`<thf-breadcrumb>`](https://thf.totvs.com.br/documentation/thf-breadcrumb)
 * [`<thf-chart>`](https://thf.totvs.com.br/documentation/thf-chart)
 * [`<thf-checkbox-group>`](https://thf.totvs.com.br/documentation/thf-checkbox-group)
 * [`<thf-code-editor>`](https://thf.totvs.com.br/documentation/thf-code-editor)
@@ -21,6 +22,7 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 * [`<thf-combo>`](https://thf.totvs.com.br/documentation/thf-combo)
 * [`<thf-datepicker>`](https://thf.totvs.com.br/documentation/thf-datepicker)
 * [`<thf-decimal>`](https://thf.totvs.com.br/documentation/thf-decimal)
+* [`<thf-disclaimer-group>`](https://thf.totvs.com.br/documentation/thf-disclaimer-group)
 * [`<thf-dropdown>`](https://thf.totvs.com.br/documentation/thf-dropdown)
 * [`<thf-email>`](https://thf.totvs.com.br/documentation/thf-email)
 * [`<thf-field-container>`](https://thf.totvs.com.br/documentation/thf-field-container)
@@ -63,7 +65,6 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 * [`<thf-url>`](https://thf.totvs.com.br/documentation/thf-url)
 * [`<thf-widget>`](https://thf.totvs.com.br/documentation/thf-widget)
 * [`<thf-wrapper>`](https://thf.totvs.com.br/documentation/thf-menu)
-* [`<thf-disclaimer-group>`](https://thf.totvs.com.br/documentation/thf-disclaimer-group)
 
 ### Directives Snippets
 * [`thf-tooltip`](https://thf.totvs.com.br/documentation/thf-tooltip)
@@ -76,6 +77,9 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
 
 ## Release Notes
+
+1.0.5
+* Added the new `thf-breadcrumb` component;
 
 1.0.4
 * Added the new `thf-disclaimer-group` component;
