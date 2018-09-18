@@ -38,26 +38,6 @@
 		],
 		"description": "THF - Button Group"
 	},
-	"THF.Chart": {
-		"prefix": "<thf-chart",
-		"body": [
-			"<thf-chart",
-			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
-			"    [t-categories]=\"${3:chartCategories}\"",
-			"    t-height=\"${4:400}px\"",
-			"    t-label-visible=\"${5|false,true|}\"",
-			"    t-max-value=\"${6}\"",
-			"    t-min-value=\"${7}\"",
-			"    [t-series]=\"${8:chartSeries}\"",
-			"    t-title=\"${9}\"",
-			"    t-type=\"${10|area,bar,bubble,bullet,candlestick,column,donut,funnel,line,ohlc,pie,polarLine,rangeBar,scatter,scatterLine,waterfall|}\"",
-			"    (t-series-click)=\"onClickSeries${11:Chart}(\\$event)\"",
-			"    (t-series-hover)=\"onHoverSeries${11:Chart}(\\$event)\"",
-			">",
-			"</thf-chart>$0"
-		],
-		"description": "THF - Chart"
-	},
 	"THF.Checkbox.Group": {
 		"prefix": "<thf-checkbox-group",
 		"body": [
@@ -69,30 +49,14 @@
 			"    t-disabled=\"${5|false,true|}\"",
 			"    t-help=\"${6}\"",
 			"    t-indeterminate=\"${7|false,true|}\"",
-			"    t-required=\"${8|false,true|}\" ",
-			"    [t-options]=\"${9:checkboxGroupOptions}\"",
-			"    (t-change)=\"onChange${10:CheckboxOption}(\\$event)\"",
+			"    t-required=\"${8|false,true|}\"",
+			"    t-columns=\"${9|1,2,3,4|}\"",
+			"    [t-options]=\"${10:checkboxGroupOptions}\"",
+			"    (t-change)=\"onChange${11:CheckboxOption}(\\$event)\"",
 			">",
 			"</thf-checkbox-group>$0"
 		],
 		"description": "THF - Checkbox Group"
-	},
-	"THF.Code.Editor": {
-		"prefix": "<thf-code-editor",
-		"body": [
-			"<thf-code-editor",
-			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
-			"    name=\"${3}\"",
-			"    [(ngModel)]=\"${3}\"",
-			"    t-height=\"${4:150}px\"",
-			"    t-language=\"${5|plainText,HTML,JSON,XML,TypeScript,JavaScript,CSS,LESS,SCSS|}\"",
-			"    t-readonly=\"${6|false,true|}\"",
-			"    t-show-diff=\"${7|false,true|}\"",
-			"    t-theme=\"${8:vs}\"",
-			">",
-			"</thf-code-editor>$0"
-		],
-		"description": "THF - Code Editor"
 	},
 	"THF.Column": {
 		"prefix": "<thf-column",
@@ -234,48 +198,6 @@
 			"</thf-email>$0"
 		],
 		"description": "THF - Email"
-	},
-	"THF.Field.Container": {
-		"prefix": "<thf-field-container",
-		"body": [
-			"<thf-field-container",
-			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
-			"    t-help=\"${3}\"",
-			"    t-label=\"${4}\"",
-			"    t-opcional=\"${5}\"",
-			">",
-			"",
-			"    $0",
-			"",
-			"</thf-field-container>"
-		],
-		"description": "THF - Field Container"
-	},
-	"THF.Grid": {
-		"prefix": "<thf-grid",
-		"body": [
-			"<thf-grid",
-			"    class=\"thf-${1|sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}\"",
-			"    [t-columns]=\"${3:gridColumns}\"",
-			"    [t-data]=\"${4:gridData}\"",
-			"    t-editable=\"${5|false,true|}\"",
-			"    t-groupable=\"${6|false,true|}\"",
-			"    t-selectable=\"${7|false,true|}\"",
-			"    t-sortable=\"${8|false,true|}\"",
-			"    t-add-action=\"${9:gridOnAdd}\"",
-			"    t-save-action=\"${10:gridOnSave}\"",
-			"    t-remove-action=\"${11:gridOnRemove}\"",
-			"    t-show-add-button=\"${12|false,true|}\"",
-			"    t-show-export-buttons=\"${13|false,true|}\"",
-			"    [t-show-more-disabled]=\"${14:gridShowMoreControl}\"",
-			"    t-show-remove-button=\"${15|false,true|}\"",
-			"    (t-show-more)=\"onShowMore${16:Grid}(\\$event)\"",
-			"    (t-save-value)=\"onSaveValue${16:Grid}(\\$event)\"",
-			"    (t-selection-change)=\"onSelecionChange${16:Grid}(\\$event)\"",
-			">",
-			"</thf-grid>$0"
-		],
-		"description": "THF - Grid"
 	},
 	"THF.Info": {
 		"prefix": "<thf-info",
@@ -654,9 +576,10 @@
 			"<thf-popover",
 			"    #popover${1}",
 			"    t-title=\"${2}\"",
-			"    t-position=\"${3|right,right-top,right-bottom,top,top-left,top-right,left,left-top,left-bottom,bottom,bottom-left,bottom-right|}\"",
+			"    t-position=\"${3|right,right-top,right-bottom,top,top-left,top-right,left,left-top,left-bottom,bottom,bottom-left,bottom-right|}\"",			
 			"    [t-target]=\"${4:tagetElementRef}\"",
 			"    t-trigger=\"${5|click,hover|}\"",
+			"    t-hide-arrow=\"${6:|false,true|}\"",
 			">",
 			"",
 			"    $0",
@@ -673,6 +596,7 @@
 			"    [t-actions]=\"${2:popupActions}\"",
 			"    t-position=\"${3|bottom-left,right,right-top,right-bottom,top,top-left,top-right,left,left-top,left-bottom,bottom,bottom-right|}\"",
 			"    [t-target]=\"${4:tagetElementRef}\"",
+			"    t-hide-arrow=\"${5:|false,true|}\"",
 			">",
 			"",
 			"    $0",
@@ -836,12 +760,11 @@
 		"prefix": "<thf-tab",
 		"body": [
 			"<thf-tab",
-			"    t-id=\"${1|false,true|}\"",
-			"    t-label=\"${2|false,true|}\"",
-			"    t-hide=\"${3|false,true|}\"",
-			"    t-active=\"${4|false,true|}\"",
-			"    t-disabled=\"${5|false,true|}\"",
-			"    (t-click)=\"onClick${6:Tab}(\\$event)\"",
+			"    t-label=\"${1|false,true|}\"",
+			"    t-hide=\"${2|false,true|}\"",
+			"    t-active=\"${3|false,true|}\"",
+			"    t-disabled=\"${4|false,true|}\"",
+			"    (t-click)=\"onClick${5:Tab}(\\$event)\"",
 			">",
 			"",
 			"    $0",
