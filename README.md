@@ -74,10 +74,12 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to a
 
 ## Release Notes
 
+2.0.1
+* Added new icons, 121 in total now;
+
 2.0.0
 * Removed the components:  `thf-grid`, `thf-chart`, `thf-code-editor` and`thf-field-container`;
 * Removed the property `t-id` from `thf-tab`;
-* Added new icons, 121 in total now;
 * Added the property `t-columns` to the `thf-checkbox-group`;
 * Added the property `t-hide-arrow` to the components `thf-popover` and `thf-popup`.
 
