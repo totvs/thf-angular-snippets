@@ -4,7 +4,7 @@ This extension for Visual Studio Code adds HTML|Angular snippets for TOTVS HTML 
 
 ![Use Extension](https://github.com/totvs/thf-angular-snippets/raw/master/assets/images/totvs-thf-snippets.gif)
 
-THF Suported version: [`2.0.0`](https://thf.totvs.com.br/release-notes/thf-ui)
+THF Suported version: [`2.2.0`](https://thf.totvs.com.br/release-notes/thf-ui)
 
 ## Usage
 Type part of a snippet, press `enter`, and the snippet unfolds.
@@ -70,15 +70,19 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 * [`thf-i18n`](https://thf.totvs.com.br/documentation/thf-i18n)
 * [`thf-i18n-parameter`](https://thf.totvs.com.br/documentation/thf-i18n)
 
-Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
+Alternatively, press `Ctrl` + `Space` (Windows, Linux) or `Cmd` + `Space` (OSX) to activate snippets from within the editor.
 
 ## Release Notes
+
+2.2.0
+* Added the property `t-lookup` to the `t-filter-params`;
+* Added the property `t-literals` to the components `thf-page-detail` and `thf-page-edit`. 
 
 2.0.1
 * Added new icons, 121 in total now;
 
 2.0.0
-* Removed the components:  `thf-grid`, `thf-chart`, `thf-code-editor` and`thf-field-container`;
+* Removed the components: `thf-grid`, `thf-chart`, `thf-code-editor` and`thf-field-container`;
 * Removed the property `t-id` from `thf-tab`;
 * Added the property `t-columns` to the `thf-checkbox-group`;
 * Added the property `t-hide-arrow` to the components `thf-popover` and `thf-popup`.
