@@ -4,7 +4,7 @@ This extension for Visual Studio Code adds HTML|Angular snippets for TOTVS HTML 
 
 ![Use Extension](https://github.com/totvs/thf-angular-snippets/raw/master/assets/images/totvs-thf-snippets.gif)
 
-THF Suported version: [`2.2.0`](https://thf.totvs.com.br/release-notes/thf-ui)
+THF Suported version: [`2.3.0`](https://thf.totvs.com.br/release-notes/thf-ui)
 
 ## Usage
 Type part of a snippet, press `enter`, and the snippet unfolds.
@@ -73,6 +73,10 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 Alternatively, press `Ctrl` + `Space` (Windows, Linux) or `Cmd` + `Space` (OSX) to activate snippets from within the editor.
 
 ## Release Notes
+
+2.3.0
+* Added the property `t-columns` to the `thf-radio-group`;
+* Added the property `t-literals` to the `thf-page-list`.
 
 2.2.0
 * Added the property `t-lookup` to the `t-filter-params`;
